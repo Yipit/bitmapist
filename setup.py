@@ -5,15 +5,12 @@
 # the Free Software Foundation, either version 3 of the License, or (at
 # your option) any later version.
 
-import os
-
 from setuptools import setup
 
-setup(name='bitmapist',
+setup(name='bitmapist-yipit',
       version='2.6.4',
-      author="amix",
-      author_email="amix@amix.dk",
-      url="http://www.amix.dk/",
+      author="yayalice",
+      author_email="alice@yipit.com",
       install_requires=['redis>=2.7.2.1', 'mako', 'python-dateutil>=2.1'],
       dependency_links=['https://github.com/yayalice/redis-py/tarball/master#egg=redis-2.7.2.1'],
       classifiers=[
