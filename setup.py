@@ -8,10 +8,10 @@
 from setuptools import setup
 
 setup(name='bitmapist-yipit',
-      version='2.6.4',
+      version='2.6.5',
       author="yayalice",
       author_email="alice@yipit.com",
-      install_requires=['redis>=2.7.2.1', 'mako', 'python-dateutil>=2.1'],
+      install_requires=['redis>=2.7.2.1', 'mako', 'python-dateutil<2.0'],
       dependency_links=['https://github.com/yayalice/redis-py/tarball/master#egg=redis-2.7.2.1'],
       classifiers=[
         "Development Status :: 5 - Production/Stable",
